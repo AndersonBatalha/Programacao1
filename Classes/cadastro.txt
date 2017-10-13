@@ -1,0 +1,6 @@
+Nome: 32
+CPF: 123
+Endereço: dsa
+Bairro: ds
+Cidade: 4
+Estado: f

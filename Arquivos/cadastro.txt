@@ -1,0 +1,6 @@
+Nome: Anderson
+CPF: 151816527-35
+Endereço: Rua Brusque, 51
+Bairro: Ubatuba
+Cidade: São Francisco do Sul
+Estado: SC
