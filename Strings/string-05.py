@@ -7,4 +7,14 @@
 # FUL
 # FU
 # F
+
+lista = []
 nome = raw_input("Nome: ")
+for i in range(len(nome)):
+    lista.append(nome[i])
+
+while len(lista) > 0:
+	for i in range(len(lista)):
+		print lista[i],
+	lista.pop()
+	print "\n"

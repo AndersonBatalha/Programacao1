@@ -11,4 +11,6 @@ lista = []
 nome = raw_input("Nome: ")
 for i in range(len(nome)):
 	lista.append(nome[i])
-	print lista
+	for i in range (len(lista)):
+		print lista[i],
+	print "\n"

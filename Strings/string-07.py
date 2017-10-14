@@ -6,7 +6,7 @@
 frase = raw_input("Frase: ")
 lista = []
 for i in range(len(frase)):
-	lista.append(frase[i])
+	lista.append(frase[i].lower())
 print "A:", lista.count("a")
 print "E:", lista.count("e")
 print "I:", lista.count("i")
