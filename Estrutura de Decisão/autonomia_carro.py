@@ -22,7 +22,7 @@ if etanol == 0:
 	if vmedia > 0 and vmedia <= 80: reducao = rend_gasolina * 0.2
 	else: reducao = rend_gasolina * 0.3
 	novo_rend_gasolina = rend_gasolina - reducao
-	if distancia > rend_etanol: print "Serão necessários", distancia -rend_etanol, "litros de etanol para completar a viagem."
+	if distancia > novo_rend_gasolina: print "Serão necessários", novo_rend_gasolina, "litros de etanol para completar a viagem."
 if gasolina == 0:
 	print "100 % de etanol."
 	rend_etanol = 15 * etanol
@@ -30,7 +30,7 @@ if gasolina == 0:
 	if vmedia > 0 and vmedia <= 80: reducao = rend_etanol * 0.2
 	else: reducao = rend_etanol * 0.3
 	novo_rend_etanol = rend_etanol - reducao
-	if distancia > rend_gasolina: print "Serão necessários", distancia - rend_gasolina, "litros de gasolina para completar a viagem."
+	if distancia > rend_gasolina: print "Serão necessários", novo_rend_etanol, "litros de gasolina para completar a viagem."
 if gasolina > 0 and etanol > 0:
 	print "Mistura de etanol e gasolina."
 	perc_gasolina = gasolina / vtotal
